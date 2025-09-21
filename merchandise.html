@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merchandise | The Daily Dose Of Rugby</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1 class="site-title">The Daily Dose Of Rugby</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="index.html#news"><i class="fas fa-newspaper"></i> News</a></li>
+                    <li><a href="index.html#fixtures"><i class="fas fa-calendar-alt"></i> Fixtures</a></li>
+                    <li><a href="merchandise.html"><i class="fas fa-store"></i> Merchandise</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="merchandise" class="content-section">
+            <h2 class="section-title">Official Merchandise</h2>
+            <div class="filter-controls">
+                <input type="text" id="merch-search" placeholder="Search for items...">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="kits">Kits</button>
+                    <button class="filter-btn" data-filter="accessories">Accessories</button>
+                </div>
+            </div>
+            <div id="merch-container" class="grid-container">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 The Daily Dose Of Rugby. All rights reserved.</p>
+    </footer>
+
+    <div id="merch-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img id="modal-image" src="" alt="Merchandise Item">
+            <h4 id="modal-title"></h4>
+            <p id="modal-price"></p>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
