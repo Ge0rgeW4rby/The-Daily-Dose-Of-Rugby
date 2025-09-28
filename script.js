@@ -45,7 +45,7 @@ const rugbyMerch = [
     {
         name: "Lions Tour 2025 Official Replica Shirt",
         price: "£42.00",
-        imageUrl: "https://store.lionsrugby.com/content/ws/all/88bdfe80-febb-4c81-99b4-af2f00e5fec9__1600X2710.png?w=1600",
+        imageUrl: "lions-kit.jpg",
         altText: "Lions Tour 2025 Official Replica Shirt",
         description: "Official replica shirt of the British & Irish Lions 2025 tour to Australia. Made with breathable, high-performance fabric for comfort on and off the pitch. Show your support with this iconic jersey.",
         category: "kits"
